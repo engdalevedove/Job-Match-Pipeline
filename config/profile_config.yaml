@@ -1,0 +1,85 @@
+search_profiles:
+  - name: "Remoto Brasil - Dados & BI"
+    sites: ["linkedin", "indeed"]
+    terms:
+      - "Analista de Dados"
+      - "Analytics Engineer"
+      - "Business Intelligence"
+      - "Analista de BI"
+      - "Automação de Processos Python"
+    location: "Brazil"
+    country_indeed: "Brazil"
+    is_remote: true
+    hours_old: 24
+    results_wanted: 20
+
+  - name: "Presencial/Híbrido - Marília e Região"
+    sites: ["linkedin", "indeed"]
+    terms:
+      - "Analista de Dados"
+      - "Business Intelligence"
+      - "Engenheiro de Produção"
+      - "Analista de PCP"
+      - "Automação"
+    location: "Marília, State of São Paulo, Brazil"
+    country_indeed: "Brazil"
+    is_remote: false
+    hours_old: 72
+    results_wanted: 15
+
+  - name: "Global Remote - Data & Analytics (USD/EUR)"
+    sites: ["linkedin"]
+    terms:
+      - "Analytics Engineer"
+      - "Data Analyst"
+      - "BI Developer"
+    location: "United States"
+    country_indeed: "USA"
+    is_remote: true
+    hours_old: 24
+    results_wanted: 15
+
+scoring:
+  min_score: 60
+  target_weight_sum: 15
+  skills_weights:
+    python: 3
+    sql: 3
+    power bi: 3
+    dax: 2
+    looker: 2
+    lookml: 2
+    power query: 2
+    etl: 2
+    elt: 2
+    gcp: 2
+    bigquery: 2
+    automação: 2
+    automation: 2
+    engenharia de produção: 2
+    kpi: 1
+    oee: 2
+    supply chain: 1
+    logística: 1
+  negative_keywords:
+    - "estágio"
+    - "estagiário"
+    - "intern"
+    - "internship"
+    - "jovem aprendiz"
+    - "sênior"
+    - "senior"
+    - "sr"
+    - "especialista"
+    - "specialist"
+    - "staff"
+    - "principal"
+    - "lead"
+    - "líder"
+    - "coordenador"
+    - "coordinator"
+    - "gerente"
+    - "manager"
+    - "head"
+    - "pcd"
+    - "afirmativa"
